@@ -1,0 +1,73 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: auto;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    position: relative; left: 15px; top: auto;
+
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    position: relative;right: 100px;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav .nav-links a:hover {
+    color: #ff6600;
+}
+
+
+.fun-base {
+    padding: 50px 20px;
+    background-color:  #f9f9f9;
+    text-align: center;
+}
+
+.fun-base h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.fun-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fun-gallery img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+.fun-gallery img:hover {
+    transform: scale(1.05);
+}
+

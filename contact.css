@@ -1,0 +1,65 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    position: relative;right: 100px;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav .nav-links a:hover {
+    color: #ff6600;
+}
+
+.contact-info {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.contact-info i {
+    color: #25d366; /* WhatsApp green for WhatsApp icon */
+    margin-right: 8px;
+}
+
+.contact-info .fa-instagram {
+    color: #E1306C; /* Instagram pink */
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: inherit; /* Keep text color same as parent */
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
